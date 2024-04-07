@@ -18,13 +18,38 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      // Generates html file and injects bundle 
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "JATE",
       }),
-      
-    ],
+      // Injects custom server worker 
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
+      // Creating the manifest.json file 
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: "Just Another Text Editor",
+        short_name: "JATE",
+        description: "A simple text editor",
+        background_color: "#272822",
+        theme_color: "#31a9e1",
+        start_url: "/",
+        publicPath: "/",
+        icons: [
+          {
+            src: path.resolve("src/images/logo.png"),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join("assets", "icons"),
+          },
+        ],
+      }),
 
+    ],
+    // CSS loader , style loader and babel 
     module: {
       rules: [
         {
@@ -34,6 +59,7 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
+          // Babel loader
           use: {
             loader: 'babel-loader',
             options: {
