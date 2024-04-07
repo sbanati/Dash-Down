@@ -15,10 +15,17 @@ const initdb = async () =>
 // TODO: Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   console.log('update the database');
-  const jateDb = await openDB('jate', 1);
-  const tx = jateDb.transaction('jate', 'readwrite');
-  const store = tx.objectStore('jate');
-  const request = store.put({ content });
+  
+  // Creates connection to the database and the version number
+  const jateDb = await openDB('jate', 1); 
+  // Creates a transaction to jate db, enables readwrite operations
+  const tx = jateDb.transaction('jate', 'readwrite'); 
+  // Access the object store 'jate' and run objectstore method on tx
+  const store = tx.objectStore('jate'); 
+  // create request to add or update data as an object with key value pair 'content'
+  const request = store.put({ content }); 
+
+ 
   const result = await request.catch((error) => {
     console.error('Error while saving data', error);
     throw error;
@@ -26,11 +33,6 @@ export const putDb = async (content) => {
   console.log('Data saved to the database', result);
   return result;
 };
-
-
-
-
-
 
 
 
