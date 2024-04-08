@@ -76,6 +76,8 @@ This is a single-page application that meets the PWA criteria. Additionally, it 
 * ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 * ![NPM](https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+* ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
+* ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
   
 
   
@@ -111,14 +113,14 @@ Clone the repo below and open the project in your source code editor. Open the t
    ```sh
    npm install
    ```
-3. Make sure webpack is configured properly and creates a dist folder on when doing step 4. Also make sure you start server in the root directory.  
-   ```sh
-   
-   ```
-4. Start Server  
+3. Start Server from the root directory.   
    ```sh
    npm run start:dev
    ```
+4. After successful step 3, your project folder should look like this, where node modules is present in root, client and server folder and dist folder created.
+   
+   <img src="client/src/images/screenshot1.png" alt="file structure in vscode">
+   
 5. Open application on browser
    ```sh
    go to http://localhost:3000/ in browser.
@@ -131,11 +133,14 @@ Clone the repo below and open the project in your source code editor. Open the t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<h3>Demo Video of social-network-backend.</h3>
 
 
 
-### The working endpoints are listed below, these are the endpoints you can test 
+
+### Successful PWA features for manifest.json and service worker configuration. 
+
+<img src="client/src/images/screenshot3.png" alt="browser developer tools for service worker">
+<img src="client/src/images/screenshot4.png" alt="browser developer tools for manifest">
 
 
 
@@ -152,7 +157,8 @@ Clone the repo below and open the project in your source code editor. Open the t
 
 <h3>Possible features</h3>
 
-* Possibly create a front end to connect this back end to 
+* Custom theme integration
+* Autocomplete 
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,7 +202,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Twitter and email - [@twitter_TherealSLVR](https://twitter.com/TherealSLVR) - smbanati@gmail.com
 
-Project Link: https://github.com/sbanati/amazing-lemon
+Project Link: https://github.com/sbanati/DraftHub
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
