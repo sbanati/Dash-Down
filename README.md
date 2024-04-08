@@ -17,14 +17,10 @@
   <p align="center">
     Just another text editor! 
     <br />
-    <a href="https://github.com/sbanati/DraftHub"><strong>Explore the docs »</strong></a>
+    <a href="https://drafthub.onrender.com"><strong>View Demo</strong></a>
     <br />
     <br />
-
-
-  
-
-   
+ 
 
   </p>
 </div>
