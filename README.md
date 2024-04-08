@@ -8,14 +8,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  
 
-<h1 align="center">Social-Network|Backend Wizard</h1>
+<img src="client/src/images/logo.png" alt="J.A.T.E Logo" width="200" height="200">
+
+
+<h1 align="center">J.A.T.E</h1>
 
   <p align="center">
-    A functioning backend for a social media webapp!. 
+    Just another text editor! 
     <br />
-    <a href="https://github.com/sbanati/e-commerce-backend"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sbanati/DraftHub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
 
@@ -55,10 +57,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This application enables users to interact with an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.    
+This is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline.    
 <br><br>
  
-<img src="public/assets/screenshot.png" alt="Insomnia showing routes">
+<img src="client/src/images/screenshot2.png" alt="text editor window with numbered lines">
+
  
 
 
@@ -70,11 +73,11 @@ This application enables users to interact with an API for a social network web 
 
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 * ![Static Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-* ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+* ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 * ![NPM](https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-* ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
-* ![Mongoose](https://img.shields.io/badge/Mongoose-F04D35.svg?style=for-the-badge&logo=Mongoose&logoColor=white)
+  
+
   
 
 
