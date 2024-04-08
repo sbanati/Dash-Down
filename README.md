@@ -96,7 +96,7 @@ This is a single-page application that meets the PWA criteria. Additionally, it 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-
+### For end user: <a href="https://drafthub.onrender.com"><strong>Application live link</strong></a>
 
 
 
