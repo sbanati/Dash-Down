@@ -8,9 +8,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-<img src="client/src/images/logo.png" alt="J.A.T.E Logo" width="200" height="200">
-
+  <a href="https://github.com/sbanati/DraftHub">  
+    <img src="client/src/images/logo.png" alt="J.A.T.E Logo" width="200" height="200">
+  </a>
 
 <h1 align="center">J.A.T.E</h1>
 
@@ -22,9 +22,9 @@
     <br />
 
 
+  
 
-
-<a href="https://drafthub.onrender.com>View Demo</a>">    
+   
 
   </p>
 </div>
